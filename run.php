@@ -3,8 +3,8 @@
 include __DIR__ . '/vendor/autoload.php';
 
 $discord = new \Discord\Discord([
-    'token' => 'your-auth-token',
-]);
+    'token' => 'NzIzMzY2MDMwMjQzNTI4ODU2.Xuxtww.Gl3Pisso_uhduDgh7WImUZcOsk8',
+]); //bot token
 
 $discord->on('ready', function ($discord) {
     echo "Bot is ready.", PHP_EOL;
@@ -16,3 +16,4 @@ $discord->on('ready', function ($discord) {
 });
 
 $discord->run();
+
