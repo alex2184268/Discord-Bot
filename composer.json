@@ -1,0 +1,13 @@
+{
+    "name": "hiroma/discord-bot",
+    "description": "Hiroma's discord-bot. Yerin<3",
+    "authors": [
+        {
+            "name": "Hiroma",
+            "email": "ncookiecs@gmail.com"
+        }
+    ],
+    "require": {
+        "team-reflex/discord-php": "^4.0"
+    }
+}
