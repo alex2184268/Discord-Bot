@@ -3,7 +3,7 @@
 include __DIR__ . '/vendor/autoload.php';
 
 $discord = new \Discord\Discord([
-    'token' => 'NzIzMzY2MDMwMjQzNTI4ODU2.Xuxtww.Gl3Pisso_uhduDgh7WImUZcOsk8',
+    'token' => '<token>',
 ]); //bot token
 
 $discord->on('ready', function ($discord) {
